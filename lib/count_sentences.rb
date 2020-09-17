@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
+   complex_sentance = []
    self.split(/[.?!]/).grep(/\S/).count
    
   end
